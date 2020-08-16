@@ -1,6 +1,6 @@
 # Trivia API
 
-Provides API [endpoints](https://github.com/jurayev/trivia##Endpoints) for Trivia application.
+Provides API [endpoints](https://github.com/jurayev/trivia/tree/master/backend#endpoints) for Trivia application.
 
 All backend code base follows [PEP8 style guidelines.](https://www.python.org/dev/peps/pep-0008) and modern Python 3.7.
 
@@ -54,13 +54,13 @@ Setting the `FLASK_ENV` variable to `development` will detect file changes and r
 Setting the `FLASK_APP` variable to `flaskr` directs flask to use the `flaskr` directory and the `__init__.py` file to find the application. 
 
 ## Endpoints
-* [GET "/categories"](https://github.com/jurayev/trivia####GET "/categories")
-* [GET "/categories/int:id/questions"](https://github.com/jurayev/trivia####GET "/categories/int:id/questions")
-* [GET "/questions"](https://github.com/jurayev/trivia####GET "/questions")
-* [POST "/questions"](https://github.com/jurayev/trivia####POST "/questions")
-* [POST "/questions/search"](https://github.com/jurayev/trivia####POST "/questions/search")
-* [POST "/quizzes"](https://github.com/jurayev/trivia####POST "/quizzes")
-* [DELETE "/questions/int:id"](https://github.com/jurayev/trivia####DELETE "/questions/int:id")
+* [GET "/categories"](https://github.com/jurayev/trivia/tree/master/backend#get-categories)
+* [GET "/categories/int:id/questions"](https://github.com/jurayev/trivia/tree/master/backend#get-categoriesintidquestions)
+* [GET "/questions"](https://github.com/jurayev/trivia/tree/master/backend#get-questions)
+* [POST "/questions"](https://github.com/jurayev/trivia/tree/master/backend#post-questions)
+* [POST "/questions/search"](https://github.com/jurayev/trivia/tree/master/backend#post-questionssearch)
+* [POST "/quizzes"](https://github.com/jurayev/trivia/tree/master/backend#post-quizzes)
+* [DELETE "/questions/int:id"](https://github.com/jurayev/trivia/tree/master/backend#delete-questionsintid)
 
 
 #### GET "/categories"
